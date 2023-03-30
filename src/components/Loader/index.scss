@@ -1,0 +1,19 @@
+.loader {
+  width: 2rem;
+  border-color: red;
+  padding: 1rem;
+  border: 5px solid lightgray;
+  border-top: 5px solid black;
+  border-radius: 50%;
+  animation: loader 2s linear infinite;
+  margin: 1rem auto;
+}
+
+@keyframes loader {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(350deg);
+  }
+}
